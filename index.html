@@ -15,17 +15,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/colors.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/login-container.css" />
     <link rel="stylesheet" href="css/form-container.css" />
     <link rel="stylesheet" href="css/form.css" />
     <link rel="stylesheet" href="css/form-title.css" />
-    <link rel="stylesheet" href="css/social-icon.css">
-    <link rel="stylesheet" href="css/form-social.css">
-    <link rel="stylesheet" href="css/form-input-container.css">
-    <link rel="stylesheet" href="css/form-input.css">
-    <link rel="stylesheet" href="css/form-button.css">
+    <link rel="stylesheet" href="css/social-icon.css" />
+    <link rel="stylesheet" href="css/form-social.css" />
+    <link rel="stylesheet" href="css/form-input-container.css" />
+    <link rel="stylesheet" href="css/form-input.css" />
+    <link rel="stylesheet" href="css/form-button.css" />
+    <link rel="stylesheet" href="css/overlay-container.css" />
+    <link rel="stylesheet" href="css/overlay.css" />
     <title>Login</title>
   </head>
   <body>
@@ -48,11 +50,7 @@
             <p class="form-text">ou utilize sua conta</p>
             <div class="form-input-container">
               <input type="email" class="form-input" placeholder="Email" />
-              <input
-                type="password"
-                class="form-input"
-                placeholder="Senha"
-              />
+              <input type="password" class="form-input" placeholder="Senha" />
             </div>
             <a href="#" class="form-link"> Esqueceu a senha? </a>
             <button class="form-button">Logar</button>
@@ -60,30 +58,41 @@
           <form class="form form-register">
             <h2 class="form-title">Criar conta</h2>
             <div class="form-social">
-                <a href="#" class="social-icon">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="#" class="social-icon">
-                  <i class="fab fa-google"></i>
-                </a>
-                <a href="#" class="social-icon">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </div>
-            <p class="form-text">ou <a href="#">cadastre seu email</a> </p>
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <p class="form-text">ou <a href="#">cadastre seu email</a></p>
             <div class="form-input-container">
-                <input type="text" class="form-input" placeholder="Nome" />
-                <input type="email" class="form-input" placeholder="Email" />
-                <input
-                  type="password"
-                  class="form-input"
-                  placeholder="Senha"
-                />
-              </div>
-              <button class="form-button">Cadastrar</button>
+              <input type="text" class="form-input" placeholder="Nome" />
+              <input type="email" class="form-input" placeholder="Email" />
+              <input type="password" class="form-input" placeholder="Senha" />
+            </div>
+            <button class="form-button">Cadastrar</button>
           </form>
         </div>
-        <div class="overlay"></div>
+        <div class="overlay-container">
+          <div class="overlay">
+            <h2 class="form-title form-title-light">Já tem conta?</h2>
+            <p class="form-text">
+              Para entar na nossa plataforma faça login com suas informações
+            </p>
+            <button class="form-button form-button-light">Entrar</button>
+          </div>
+          <div class="overlay">
+            <h2 class="form-title form-title-light">Olá Aluno!</h2>
+            <p class="form-text">
+              Cadastre-se e comece a utilizar nossa plataforma on-line
+            </p>
+            <button class="form-button form-button-light">Cadastrar</button>
+          </div>
+        </div>
       </div>
     </main>
   </body>

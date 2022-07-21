@@ -1,0 +1,13 @@
+.overlay-container{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    color: var(--text-color-light);
+    transform: translateX(100%);
+    transition: 1s;
+}
+.login-container.toggle .overlay-container{
+    transform: translateX(0%);
+}
