@@ -7,7 +7,8 @@
     color: var(--text-color-light);
     transform: translateX(100%);
     transition: 1s;
+    z-index: 10;
 }
-.login-container.toggle .overlay-container{
+.login-container.move .overlay-container{
     transform: translateX(0%);
 }

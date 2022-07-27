@@ -28,11 +28,12 @@
     <link rel="stylesheet" href="css/form-button.css" />
     <link rel="stylesheet" href="css/overlay-container.css" />
     <link rel="stylesheet" href="css/overlay.css" />
+    <script src="js/login.js" defer></script>
     <title>Login</title>
   </head>
   <body>
     <main>
-      <div class="login-container">
+      <div class="login-container" id="login-container">
         <div class="form-container">
           <form class="form form-login">
             <h2 class="form-title">Entrar com</h2>
@@ -83,17 +84,18 @@
             <p class="form-text">
               Para entar na nossa plataforma faça login com suas informações
             </p>
-            <button class="form-button form-button-light">Entrar</button>
+            <button class="form-button form-button-light" id="open-login">Entrar</button>
           </div>
           <div class="overlay">
             <h2 class="form-title form-title-light">Olá Aluno!</h2>
             <p class="form-text">
               Cadastre-se e comece a utilizar nossa plataforma on-line
             </p>
-            <button class="form-button form-button-light">Cadastrar</button>
+            <button class="form-button form-button-light" id="open-register">Cadastrar</button>
           </div>
         </div>
       </div>
     </main>
+    
   </body>
 </html>

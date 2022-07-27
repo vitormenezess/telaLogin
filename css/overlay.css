@@ -11,3 +11,7 @@
     padding: 60px;
     text-align: center;
 }
+.login-container.move .overlay:nth-child(2){
+    z-index: -1;
+    opacity: 0;
+}
