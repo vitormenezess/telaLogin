@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/form-button.css" />
     <link rel="stylesheet" href="css/overlay-container.css" />
     <link rel="stylesheet" href="css/overlay.css" />
+   <link rel="stylesheet" href="css/mobile-text.css">
     <script src="js/login.js" defer></script>
     <title>Login</title>
   </head>
@@ -55,6 +56,10 @@
             </div>
             <a href="#" class="form-link"> Esqueceu a senha? </a>
             <button class="form-button">Logar</button>
+            <p class="mobile-text">
+              Não tem conta?
+              <a href="#" id="open-register-mobile">Registre-se</a>
+            </p>
           </form>
           <form class="form form-register">
             <h2 class="form-title">Criar conta</h2>
@@ -76,6 +81,10 @@
               <input type="password" class="form-input" placeholder="Senha" />
             </div>
             <button class="form-button">Cadastrar</button>
+            <p class="mobile-text">
+              Já tem conta? 
+              <a href="#" id="open-login-mobile">Login</a>
+            </p>
           </form>
         </div>
         <div class="overlay-container">
@@ -84,18 +93,29 @@
             <p class="form-text">
               Para entar na nossa plataforma faça login com suas informações
             </p>
-            <button class="form-button form-button-light" id="open-login">Entrar</button>
+            <button
+              type="button"
+              class="form-button form-button-light"
+              id="open-login"
+            >
+              Entrar
+            </button>
           </div>
           <div class="overlay">
             <h2 class="form-title form-title-light">Olá Aluno!</h2>
             <p class="form-text">
               Cadastre-se e comece a utilizar nossa plataforma on-line
             </p>
-            <button class="form-button form-button-light" id="open-register">Cadastrar</button>
+            <button
+              type="button"
+              class="form-button form-button-light"
+              id="open-register"
+            >
+              Cadastrar
+            </button>
           </div>
         </div>
       </div>
     </main>
-    
   </body>
 </html>
